@@ -5,10 +5,10 @@ class Driver{
   };
 
   yearsExperienceFromBeginningOf(endYear){
-    let end = new Date(endYear, 0, 1)
-    let total =  (end - this.startDate)/(31536000000) //returns in miliseconds
+    let end = new Date(endYear, 0, 1);
+    let total =  (end - this.startDate)/(31536000000);//returns in miliseconds
 
-    return Math.round(total)
+    return Math.round(total);
   };
 
 }
