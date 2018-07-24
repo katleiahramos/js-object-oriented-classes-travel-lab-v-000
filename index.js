@@ -15,8 +15,9 @@ class Driver{
 
 };
 
+const eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
 class Route{
-  const eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
+
 
   constructor(beginningLocation, endingLocation){
     this.beginningLocation = beginningLocation;
