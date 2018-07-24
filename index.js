@@ -30,7 +30,7 @@ class Route{
   };
 
   blocksTravelled(){
-    deltaX = this.beginningLocation.horizontal
+    let deltaX = aveToIndex(this.endingLocation.horizontal) - 
   };
 
 };
