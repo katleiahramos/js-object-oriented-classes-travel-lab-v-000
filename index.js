@@ -39,8 +39,5 @@ class Route{
     return deltaX + deltaY;
   };
 
-  estimatedTime(peak){
-
-  }
 
 };
