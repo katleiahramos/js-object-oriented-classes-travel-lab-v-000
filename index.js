@@ -11,8 +11,10 @@ class Driver{
     return Math.round(total);
   };
 
-}
+};
 
 class Route{
+  constructor(beginningLocation, endingLocation){
 
-}
+  };
+};
