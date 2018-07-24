@@ -21,7 +21,9 @@ class Route{
 
   };
 
-  aveToIndex
+  aveToIndex(ave){
+
+  }
   // blocksTravelled(){
   //
   // }
