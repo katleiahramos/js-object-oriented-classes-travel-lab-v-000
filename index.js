@@ -25,7 +25,7 @@ class Route{
 
   };
 
-  aveToInt(ave){
+  aveToIndex(ave){
     return eastWest.indexOf(ave);
   };
 
