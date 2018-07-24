@@ -8,7 +8,7 @@ class Driver{
     let end = new Date(endYear, 0, 1)
     let total =  (end - this.startDate)/(31536000000) //returns in miliseconds
 
-    return
+    return total
   };
 
 }
