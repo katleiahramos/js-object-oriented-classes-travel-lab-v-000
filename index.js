@@ -5,7 +5,8 @@ class Driver{
   };
 
   yearsExperienceFromBeginningOf(endYear){
-    const end = new Date(endYear)
+    const end = new Date(endYear);
+    return end - this.startDate
   };
 
 }
